@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin-Fashion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    .font-bebas {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .font-roboto {
+      font-family: 'Roboto', sans-serif;
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- header section -->
+  <header class="px-16 md:px-24 lg:px-36 bg-[#FFFBF0]">
+    <!-- navigation -->
+    <nav class="flex flex-col gap-y-2 md:flex-row justify-between items-center py-6">
+      <div class=" w-60 md:w-80">
+        <img class="w-full" src="icons/logo.png" alt="">
+      </div>
+      <ul class="flex gap-x-7 md:gap-x-10 justify-between items-center text-lg">
+        <li class=""><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Account</a></li>
+      </ul>
+    </nav>
+    <!-- banner section -->
+    <div class="flex flex-col-reverse md:flex-row justify-center gap-y-3 md:justify-between items-center  py-0 md:py-9">
+      <div class=" text-center md:text-left space-y-2 md:space-y-4">
+        <h1 class="text-4xl md:text-7xl font-bebas"><span class="text-[#FABE4C] block">Be the Penguins
+          </span>
+          of Winter</h1>
+        <p class="text-lg font-roboto font-medium">Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry.</p>
+        <button
+          class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-3 py-2 rounded-xl text-white font-roboto font-medium"><img
+            class="inline w-1/4" src="icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+      </div>
+      <div>
+        <img src="images/model.png" alt="">
+      </div>
+    </div>
+  </header>
+
+</body>
+
+</html>
